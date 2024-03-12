@@ -19,25 +19,25 @@ const portfolioData = [
     id: 2,
     name: 'WebRegister',
     image: WebRegisterImage,
-    link: 'https://app-dogs-red.vercel.app/'
+    link: 'https://web-register-iota.vercel.app/'
   },
   {
     id: 3,
     name: 'Workify',
     image: WorkifyImage,
-    link: 'https://app-dogs-red.vercel.app/'
+    link: 'https://workify-frontend-pcik.vercel.app/'
   },
   {
     id: 4,
     name: 'Portfolio Retro',
     image: PortfolioImage,
-    link: 'https://app-dogs-red.vercel.app/'
+    link: 'https://portfolio-d38w.vercel.app/'
   },
   {
     id: 5,
     name: 'Academia Online',
     image: AcademiaOnline,
-    link: 'https://app-dogs-red.vercel.app/'
+    link: 'https://academiaonlineglobal.com/'
   }
 ]
 
