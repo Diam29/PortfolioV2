@@ -1,0 +1,80 @@
+.container{
+  width: 50%;
+  height: 200px;
+  border: 1px solid burlywood;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid var(--color-title);
+  border-radius: 10px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.container:hover{
+  border: 3px solid var(--color-text);
+}
+
+.form{
+  width: 70%;
+  height: 100%;
+}
+
+.content__input{
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid var(--color-title);
+  display: flex;
+  align-items: center;
+color: var(--color-text);
+}
+
+.content__input:hover{
+  border-bottom: 1px solid var(--color-text);
+}
+
+.name{
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+  background-color: var(--color-fondo);
+
+}
+
+.name:focus{
+  outline: none;
+}
+
+.name__textarea{
+  width: 100%;
+  resize: none;
+  text-align: left;
+  margin-left: 10px;
+  background-color: var(--color-fondo);
+  /* z-index: -1; */
+}
+
+.name__textarea:focus{
+  outline: none;
+}
+
+.button{
+  width: 40%;
+  height: 35px;
+  color: var(--color-text);
+  background-color: var(--color-subTitle);
+  border-radius: 7px;
+  align-self: flex-end;
+}
+
+.button:hover{
+  background-color: var(--color-text);
+  color: var(--color-subTitle);
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    width: 80%;
+  }
+}
