@@ -8,7 +8,7 @@ import styles from '../Styles/About.module.css'
 const About = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>ABOUT ME...</h1>
+      <h1 className={styles.title}>ACERCA DE MÍ...</h1>
       <p className={styles.text}>Soy Full Stack Developer con +3 años de experiencia desarrollando sitios web responsivos, estáticos y dinámicos para clientes empresariales y profesionales independientes.
         De perfil polivalente y marcada orientación hacia los resultados; autodidacta y emprendedora. Me gusta estar siempre a la vanguardia en tendencias informáticas y novedades tecnológicas.
         𝘊𝘰𝘯 𝘮𝘢𝘳𝘤𝘢𝘥𝘢 𝘰𝘳𝘪𝘦𝘯𝘵𝘢𝘤𝘪𝘰́𝘯 𝘢𝘭 𝘤𝘭𝘪𝘦𝘯𝘵𝘦 𝘺 𝘩𝘢𝘤𝘪𝘢 𝘭𝘢 𝘤𝘰𝘯𝘴𝘦𝘤𝘶𝘤𝘪𝘰́𝘯 𝘥𝘦 𝘭𝘰𝘴 𝘰𝘣𝘫𝘦𝘵𝘪𝘷𝘰𝘴, 𝘥𝘦 𝘦𝘹𝘤𝘦𝘭𝘦𝘯𝘵𝘦𝘴 𝘩𝘢𝘣𝘪𝘭𝘪𝘥𝘢𝘥𝘦𝘴 𝘱𝘢𝘳𝘢 𝘭𝘢 𝘤𝘰𝘮𝘶𝘯𝘪𝘤𝘢𝘤𝘪𝘰́𝘯 𝘺 𝘵𝘳𝘢𝘵𝘰 𝘢𝘮𝘪𝘨𝘢𝘣𝘭𝘦.</p>
