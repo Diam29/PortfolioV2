@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import DogImage from '@/public/img/DogApp.png'
 import WorkifyImage from '@/public/img/WorkifyImage.png'
-import WebRegisterImage from '@/public/img/WebRegisterImage.png'
+import WebRegisterImage from '../../public/img/WebRegisterImage.png'
 import PortfolioImage from '@/public/img/PortfolioImage.png'
 import AcademiaOnline from '@/public/img/AcademiaOnlineImage.png'
 import styles from '../Styles/Portfolio.module.css'
@@ -83,15 +83,6 @@ const Portfolio = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>PORTFOLIO</h1>
       <p className={styles.text}>Una selección de mis proyectos más recientes y significativos, que destacan mi experiencia en desarrollo web y diseño de sistemas.</p>
-      {/* <div className={styles.contain}>
-        <ul className={styles.links}>
-          {filterData.map(item => (
-            <li className={item.filterId === filteredValue ? `${styles.active}` : `${''}`} onClick={() => handlerFilter(item.filterId)} key={item.filterId}>
-              {item.label}
-            </li>
-          ))}
-        </ul>
-      </div> */}
       <div className={styles.contain}>
         {filteredItems.map((item, index) => (
           <div className={styles.contain__items} key={`cardItem${item.name.trim()}`} onMouseEnter={() => handlerHover(index)} onMouseLeave={() => handlerHover(null)}>
