@@ -5,6 +5,7 @@ import DogImage from '@/public/img/DogApp.png'
 import WorkifyImage from '@/public/img/WorkifyImage.png'
 import WebRegisterImage from '../../public/img/WebregisterImage.png'
 import PortfolioImage from '@/public/img/PortfolioImage.png'
+import GestorPagos from '@/public/img/GestorPagos.png'
 import AcademiaOnline from '@/public/img/AcademiaOnlineImage.png'
 import styles from '../Styles/Portfolio.module.css'
 
@@ -38,7 +39,14 @@ const portfolioData = [
     name: 'Academia Online',
     image: AcademiaOnline,
     link: 'https://academiaonlineglobal.com/'
+  },
+  {
+    id: 6,
+    name: 'Gestor de Pagos',
+    image: GestorPagos,
+    link: 'https://challenge365-front.vercel.app/'
   }
+
 ]
 
 const filterData = [
